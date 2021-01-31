@@ -7,6 +7,7 @@ import {
 } from "@material-ui/core";
 import React from "react";
 import BoardHeader from "./BoardHeader";
+
 interface IProps {
   title: string;
 }
@@ -15,7 +16,6 @@ const useStyles = makeStyles((theme) =>
     boardBox: {
       minHeight: 350,
       width: "100%",
-      textAlign: "center",
       overflowY: "auto",
     },
   })
